@@ -294,7 +294,7 @@ export default function IndexPage() {
                   width={22}
                 ></Image>
                 <span>
-                  <sup>3</sup>ShanghaiTech University
+                  <sup>3</sup>ShanghaiTech Univ.
                 </span>
               </div>
 
