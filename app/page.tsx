@@ -498,6 +498,14 @@ export default function IndexPage() {
             >
               RERENDER A VIDEO
             </Link>
+            and {""}
+            <Link
+              href="https://motion-gpt.github.io/"
+              className="font-medium hover:text-blue-400 hover:underline"
+              target="_blank"
+            >
+              MotionGPT
+            </Link>
             .
           </p>
         </div>
