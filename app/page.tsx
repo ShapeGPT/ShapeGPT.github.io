@@ -274,7 +274,7 @@ export default function IndexPage() {
               ))}
             </div>
 
-            <div className="mt-4 grid grid-cols-4 justify-center gap-2 text-center text-base leading-tight tracking-tight md:text-xl lg:mx-[12rem]">
+            <div className="mt-4 grid grid-cols-4 justify-center gap-2 text-center text-base leading-tight tracking-tight md:text-xg lg:mx-[12rem]">
               <div className="flex items-center justify-center">
                 <Image src={fudanLogo} alt="Fudan University" width={22}></Image>
                 <span>
@@ -299,7 +299,7 @@ export default function IndexPage() {
               </div>
 
               <div className="flex items-center  justify-center">
-                <Image src={zhejiangLogo} alt="Zhejianglab" width={16}></Image>
+                <Image src={zhejiangLogo} alt="Zhejiang Lab" width={22}></Image>
                 <span>
                   <sup>4</sup>Zhejiang Lab
                 </span>
