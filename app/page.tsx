@@ -5,6 +5,7 @@ import Link from "next/link"
 import fudanLogo from "@/public/fudan.svg"
 import pipeline from "@/public/pipeline.png"
 import shanghaiTechLogo from "@/public/shanghaitech.svg"
+import zhejiangLogo from "@/public/zhejianglab.jpg"
 import teaser from "@/public/teaser.png"
 import tencentLogo from "@/public/tencent.png"
 import white from "@/public/white.svg"
@@ -273,15 +274,15 @@ export default function IndexPage() {
               ))}
             </div>
 
-            <div className="mt-4 grid grid-cols-4 justify-center gap-1 text-center text-base leading-tight tracking-tight md:text-xl lg:mx-[12rem]">
+            <div className="mt-4 grid grid-cols-4 justify-center gap-2 text-center text-base leading-tight tracking-tight md:text-xl lg:mx-[12rem]">
               <div className="flex items-center justify-center">
-                <Image src={fudanLogo} alt="Fudan University" width={32}></Image>
+                <Image src={fudanLogo} alt="Fudan University" width={22}></Image>
                 <span>
                   <sup>1</sup>Fudan University
                 </span>
               </div>
               <div className="flex items-center  justify-center">
-                <Image src={tencentLogo} alt="Tencent PCG" width={32}></Image>
+                <Image src={tencentLogo} alt="Tencent PCG" width={22}></Image>
                 <span>
                   <sup>2</sup>Tencent PCG
                 </span>
@@ -290,7 +291,7 @@ export default function IndexPage() {
                 <Image
                   src={shanghaiTechLogo}
                   alt="ShanghaiTech University"
-                  width={32}
+                  width={22}
                 ></Image>
                 <span>
                   <sup>3</sup>ShanghaiTech University
@@ -298,9 +299,9 @@ export default function IndexPage() {
               </div>
 
               <div className="flex items-center  justify-center">
-                <Image src={tencentLogo} alt="Tencent PCG" width={32}></Image>
+                <Image src={zhejiangLogo} alt="Zhejianglab" width={16}></Image>
                 <span>
-                  <sup>2</sup>Tencent PCG
+                  <sup>4</sup>Zhejiang Lab
                 </span>
               </div>
 
