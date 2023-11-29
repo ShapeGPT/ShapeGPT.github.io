@@ -404,56 +404,56 @@ export default function IndexPage() {
           {/*  </TabsContent>*/}
           {/*</Tabs>*/}
         </section>
-        <section className="mx-auto max-w-screen-lg space-y-5 py-10">
-          <h2 className="py-5 font-mono text-2xl font-semibold uppercase tracking-tight">
-            <div className="text-red-500">Our</div>
-            <div className="text-4xl">Method</div>
-          </h2>
-          <p className="md:text-l mt-4 text-justify lg:text-xl">
-            To involve large language data and models in the motion generation
-            tasks, we propose a unified motion-language framework named
-            MotionGPT. MotionGPT consists of a motion tokenizer responsible for
-            converting raw motion data into discrete motion tokens, as well as a
-            motion-aware language model that learns to understand the motion
-            tokens from large language pre-training models by corresponding
-            textual descriptions.
-          </p>
-          <Image src={pipeline} alt="MotionGPT pipeline"></Image>
-        </section>
-        {/* More Results */}
-        <section className="mx-auto w-full max-w-screen-lg space-y-5 py-10">
-          {/* <h2 className="py-5 font-mono text-2xl font-semibold uppercase tracking-tight">
-            <div className="text-red-500">Example</div>
-            <div className="text-4xl">Results</div>
-          </h2> */}
-          {/* Different Tasks */}
+        {/*<section className="mx-auto max-w-screen-lg space-y-5 py-10">*/}
+        {/*  <h2 className="py-5 font-mono text-2xl font-semibold uppercase tracking-tight">*/}
+        {/*    <div className="text-red-500">Our</div>*/}
+        {/*    <div className="text-4xl">Method</div>*/}
+        {/*  </h2>*/}
+        {/*  <p className="md:text-l mt-4 text-justify lg:text-xl">*/}
+        {/*    To involve large language data and models in the motion generation*/}
+        {/*    tasks, we propose a unified motion-language framework named*/}
+        {/*    MotionGPT. MotionGPT consists of a motion tokenizer responsible for*/}
+        {/*    converting raw motion data into discrete motion tokens, as well as a*/}
+        {/*    motion-aware language model that learns to understand the motion*/}
+        {/*    tokens from large language pre-training models by corresponding*/}
+        {/*    textual descriptions.*/}
+        {/*  </p>*/}
+        {/*  <Image src={pipeline} alt="MotionGPT pipeline"></Image>*/}
+        {/*</section>*/}
+        {/*/!* More Results *!/*/}
+        {/*<section className="mx-auto w-full max-w-screen-lg space-y-5 py-10">*/}
+        {/*  /!* <h2 className="py-5 font-mono text-2xl font-semibold uppercase tracking-tight">*/}
+        {/*    <div className="text-red-500">Example</div>*/}
+        {/*    <div className="text-4xl">Results</div>*/}
+        {/*  </h2> *!/*/}
+        {/*  /!* Different Tasks *!/*/}
 
-          {/* Comparision */}
-          <h2 className="py-5 font-mono text-2xl font-semibold uppercase tracking-tight">
-            <div className="text-red-500">Comparision</div>
-            <div className="text-4xl">Results</div>
-          </h2>
-          <div className="flex justify-center">
-            <iframe
-              width="640"
-              height="360"
-              src="https://www.youtube.com/embed/AH_q9P5dQ-c"
-              title="MotionGPT Comparision"
-              allow="accelerometer; clipboard-write; encrypted-media; picture-in-picture"
-              allowFullScreen
-            ></iframe>
-          </div>
-          {/* Citation */}
-          <h2 className="pt-5 font-mono text-2xl font-semibold uppercase tracking-tight">
-            <div className="text-3xl">Citation</div>
-          </h2>
-          <p className="md:text-l text-justify lg:text-xl">
-            If you find our code or paper helps, please consider citing:
-          </p>
-          <SyntaxHighlighter language="latex" className="rounded">
-            {citation}
-          </SyntaxHighlighter>
-        </section>
+        {/*  /!* Comparision *!/*/}
+        {/*  <h2 className="py-5 font-mono text-2xl font-semibold uppercase tracking-tight">*/}
+        {/*    <div className="text-red-500">Comparision</div>*/}
+        {/*    <div className="text-4xl">Results</div>*/}
+        {/*  </h2>*/}
+        {/*  <div className="flex justify-center">*/}
+        {/*    <iframe*/}
+        {/*      width="640"*/}
+        {/*      height="360"*/}
+        {/*      src="https://www.youtube.com/embed/AH_q9P5dQ-c"*/}
+        {/*      title="MotionGPT Comparision"*/}
+        {/*      allow="accelerometer; clipboard-write; encrypted-media; picture-in-picture"*/}
+        {/*      allowFullScreen*/}
+        {/*    ></iframe>*/}
+        {/*  </div>*/}
+        {/*  /!* Citation *!/*/}
+        {/*  <h2 className="pt-5 font-mono text-2xl font-semibold uppercase tracking-tight">*/}
+        {/*    <div className="text-3xl">Citation</div>*/}
+        {/*  </h2>*/}
+        {/*  <p className="md:text-l text-justify lg:text-xl">*/}
+        {/*    If you find our code or paper helps, please consider citing:*/}
+        {/*  </p>*/}
+        {/*  <SyntaxHighlighter language="latex" className="rounded">*/}
+        {/*    {citation}*/}
+        {/*  </SyntaxHighlighter>*/}
+        {/*</section>*/}
         <Separator className="my-8" />
         {/* Acknowledgement */}
         <div className="flex justify-center">
