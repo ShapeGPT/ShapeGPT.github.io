@@ -364,45 +364,45 @@ export default function IndexPage() {
             tasks, including text-to-shape, shape-to-text, shape completion, and shape editing.
           </p>
           {/* <Image src={teaser} alt="MotionGPT teaser"></Image> */}
-          
-          <Tabs defaultValue="m2t">
-            <TabsList className="grid w-full grid-cols-4">
-              <TabsTrigger value="m2t">Motion Translation</TabsTrigger>
-              <TabsTrigger value="t2m">Motion Generation</TabsTrigger>
-              <TabsTrigger value="t2t">Question-Answer</TabsTrigger>
-              <TabsTrigger value="m2m">Motion Complete</TabsTrigger>
-            </TabsList>
-            <TabsContent value="m2t">
-              <div className="relative">
-                <EmblaCarousel2
-                  slides={m2tVideos}
-                  captions={m2tQuestions}
-                  captions2={m2tAnswers}
-                  options={{ loop: true }}
-                ></EmblaCarousel2>
-              </div>
-            </TabsContent>
-            <TabsContent value="t2m">
-              <div className="relative">
-                <EmblaCarousel
-                  slides={t2mResults}
-                  captions={t2mResultsCaptions}
-                  options={{ loop: true }}
-                ></EmblaCarousel>
-              </div>
-            </TabsContent>
-            <TabsContent value="m2m">
-              <div className="relative">
-                <EmblaCarousel
-                  slides={m2mVideos}
-                  options={{ loop: true }}
-                ></EmblaCarousel>
-              </div>
-            </TabsContent>
-            <TabsContent value="t2t">
-              <Chat message={t2tResults} />
-            </TabsContent>
-          </Tabs>
+
+          {/*<Tabs defaultValue="m2t">*/}
+          {/*  <TabsList className="grid w-full grid-cols-4">*/}
+          {/*    <TabsTrigger value="m2t">Motion Translation</TabsTrigger>*/}
+          {/*    <TabsTrigger value="t2m">Motion Generation</TabsTrigger>*/}
+          {/*    <TabsTrigger value="t2t">Question-Answer</TabsTrigger>*/}
+          {/*    <TabsTrigger value="m2m">Motion Complete</TabsTrigger>*/}
+          {/*  </TabsList>*/}
+          {/*  <TabsContent value="m2t">*/}
+          {/*    <div className="relative">*/}
+          {/*      <EmblaCarousel2*/}
+          {/*        slides={m2tVideos}*/}
+          {/*        captions={m2tQuestions}*/}
+          {/*        captions2={m2tAnswers}*/}
+          {/*        options={{ loop: true }}*/}
+          {/*      ></EmblaCarousel2>*/}
+          {/*    </div>*/}
+          {/*  </TabsContent>*/}
+          {/*  <TabsContent value="t2m">*/}
+          {/*    <div className="relative">*/}
+          {/*      <EmblaCarousel*/}
+          {/*        slides={t2mResults}*/}
+          {/*        captions={t2mResultsCaptions}*/}
+          {/*        options={{ loop: true }}*/}
+          {/*      ></EmblaCarousel>*/}
+          {/*    </div>*/}
+          {/*  </TabsContent>*/}
+          {/*  <TabsContent value="m2m">*/}
+          {/*    <div className="relative">*/}
+          {/*      <EmblaCarousel*/}
+          {/*        slides={m2mVideos}*/}
+          {/*        options={{ loop: true }}*/}
+          {/*      ></EmblaCarousel>*/}
+          {/*    </div>*/}
+          {/*  </TabsContent>*/}
+          {/*  <TabsContent value="t2t">*/}
+          {/*    <Chat message={t2tResults} />*/}
+          {/*  </TabsContent>*/}
+          {/*</Tabs>*/}
         </section>
         <section className="mx-auto max-w-screen-lg space-y-5 py-10">
           <h2 className="py-5 font-mono text-2xl font-semibold uppercase tracking-tight">
