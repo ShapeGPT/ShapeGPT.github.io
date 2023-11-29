@@ -259,7 +259,7 @@ export default function IndexPage() {
               ))}
             </div>
 
-            <div className="tracking-tigh grid grid-cols-5 gap-2 text-center text-base md:text-lg lg:mx-[18rem] lg:text-xl">
+            <div className="tracking-tigh grid grid-cols-3 gap-2 text-center text-base md:text-lg lg:mx-[18rem] lg:text-xl">
               {authors2.map((author, index) => (
                 <div key={index}>
                   <Link
@@ -272,7 +272,7 @@ export default function IndexPage() {
                 </div>
               ))}
             </div>
-          
+
             <div className="mt-4 grid grid-cols-3 justify-center gap-2 text-center text-base leading-tight tracking-tight md:text-xl lg:mx-[12rem]">
               <div className="flex items-center justify-center">
                 <Image src={fudanLogo} alt="Fudan University" width={32}></Image>
