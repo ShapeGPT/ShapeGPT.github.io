@@ -23,22 +23,28 @@ import { Icons } from "@/components/icons"
 
 export default function IndexPage() {
   const authors = [
-    "Biao Jiang",
+    "Fukun Yin",
     "Xin Chen",
-    "Wen Liu",
-    "Jingyi Yu",
-    "Gang YU",
+    "Chi Zhang",
+    "Biao Jiang",
+    "Zibo Zhao",
+    "Jiayuan Fan",
+    "Gang Yu",
+    "Taihao Li",
     "Tao Chen",
   ]
   const authorLinks = [
-    "https://github.com/billl-jiang",
+    "https://fukunyin.github.io/",
     "https://chenxin.tech/",
-    "https://scholar.google.com/citations?user=A6K6bkoAAAAJ",
-    "https://sist.shanghaitech.edu.cn/2020/0707/c7499a53862/page.htm",
+    "https://icoz69.github.io/",
+    "https://github.com/billl-jiang",
+    "",
+    "https://scholar.google.com.hk/citations?user=gsLd2ccAAAAJ&hl=zh-CN",
     "https://www.skicyyu.org/",
+    "",
     "https://eetchen.github.io/",
   ]
-  const authorAffliations = ["1", "2", "2", "3", "2", "1"]
+  const authorAffliations = ["1", "2", "2", "1", "3", "1", "2", "4","1"]
 
   const t2mResults = [
     "videos/text-to-motion/0.webm",

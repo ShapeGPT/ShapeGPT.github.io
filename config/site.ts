@@ -1,8 +1,8 @@
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
-  name: "MotionGPT",
-  description: "MotionGPT: Human Motionas Foreign Language.",
+  name: "ShapeGPT",
+  description: "ShapeGPT: A Unified Shape-centric Multi-modal Language Model.",
   mainNav: [
     {
       title: "Home",
