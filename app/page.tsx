@@ -252,6 +252,17 @@ export default function IndexPage() {
                   <sup>{authorAffliations[index]}</sup>
                 </div>
               ))}
+              {authors.map((author, index) => (
+                <div key={index}>
+                  <Link
+                    className="transition hover:text-blue-400"
+                    href={authorLinks[index]}
+                  >
+                    {author}
+                  </Link>
+                  <sup>{authorAffliations[index]}</sup>
+                </div>
+              ))}
             </div>
             <div className="mt-4 grid grid-cols-3 justify-center gap-2 text-center text-base leading-tight tracking-tight md:text-xl lg:mx-[12rem]">
               <div className="flex items-center justify-center">
