@@ -259,19 +259,7 @@ export default function IndexPage() {
               ))}
             </div>
 
-            <div className="tracking-tigh mt-4 grid grid-cols-5 gap-2 text-center text-base md:text-lg lg:mx-[18rem] lg:text-xl">
-              {authors2.map((author, index) => (
-                <div key={index}>
-                  <Link
-                    className="transition hover:text-blue-400"
-                    href={authorLinks2[index]}
-                  >
-                    {author}
-                  </Link>
-                  <sup>{authorAffliations2[index]}</sup>
-                </div>
-              ))}
-            </div>
+            
 
             <div className="mt-4 grid grid-cols-3 justify-center gap-2 text-center text-base leading-tight tracking-tight md:text-xl lg:mx-[12rem]">
               <div className="flex items-center justify-center">
