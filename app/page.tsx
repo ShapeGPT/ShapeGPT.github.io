@@ -29,9 +29,6 @@ export default function IndexPage() {
     "Biao Jiang",
     "Zibo Zhao",
     "Jiayuan Fan",
-    "Gang Yu",
-    "Taihao Li",
-    "Tao Chen",
   ]
   const authorLinks = [
     "https://fukunyin.github.io/",
@@ -40,9 +37,6 @@ export default function IndexPage() {
     "https://github.com/billl-jiang",
     "",
     "https://scholar.google.com.hk/citations?user=gsLd2ccAAAAJ&hl=zh-CN",
-    "https://www.skicyyu.org/",
-    "",
-    "https://eetchen.github.io/",
   ]
   const authors2 = [
     "Gang Yu",
