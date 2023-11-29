@@ -44,7 +44,18 @@ export default function IndexPage() {
     "",
     "https://eetchen.github.io/",
   ]
+  const authors2 = [
+    "Gang Yu",
+    "Taihao Li",
+    "Tao Chen",
+  ]
+  const authorLinks2 = [
+    "https://www.skicyyu.org/",
+    "",
+    "https://eetchen.github.io/",
+  ]
   const authorAffliations = ["1", "2", "2", "1", "3", "1", "2", "4","1"]
+  const authorAffliations2 = ["2", "4","1"]
 
   const t2mResults = [
     "videos/text-to-motion/0.webm",
@@ -252,15 +263,16 @@ export default function IndexPage() {
                   <sup>{authorAffliations[index]}</sup>
                 </div>
               ))}
-              {authors.map((author, index) => (
+              <br />
+              {authors2.map((author, index) => (
                 <div key={index}>
                   <Link
                     className="transition hover:text-blue-400"
-                    href={authorLinks[index]}
+                    href={authorLinks2[index]}
                   >
                     {author}
                   </Link>
-                  <sup>{authorAffliations[index]}</sup>
+                  <sup>{authorAffliations2[index]}</sup>
                 </div>
               ))}
             </div>
