@@ -360,10 +360,11 @@ export default function IndexPage() {
             we use a three-stage training scheme, including shape representation, multimodal
             alignment, and instruction-based generation, to align shape-language codebooks and
             learn the intricate correlations among these modalities. Extensive experiments
-            demonstrate that ShapeGPT achieves comparable performance across shape-relevant 
+            demonstrate that ShapeGPT achieves comparable performance across shape-relevant
             tasks, including text-to-shape, shape-to-text, shape completion, and shape editing.
           </p>
           {/* <Image src={teaser} alt="MotionGPT teaser"></Image> */}
+          
           <Tabs defaultValue="m2t">
             <TabsList className="grid w-full grid-cols-4">
               <TabsTrigger value="m2t">Motion Translation</TabsTrigger>
