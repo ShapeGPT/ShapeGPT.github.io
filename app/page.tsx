@@ -39,17 +39,21 @@ export default function IndexPage() {
     "https://scholar.google.com.hk/citations?user=gsLd2ccAAAAJ&hl=zh-CN",
   ]
   const authors2 = [
+    "",
     "Gang Yu",
     "Taihao Li",
     "Tao Chen",
+    "",
   ]
   const authorLinks2 = [
+    "",
     "https://www.skicyyu.org/",
     "",
     "https://eetchen.github.io/",
+    "",
   ]
   const authorAffliations = ["1", "2", "2", "1", "3", "1"]
-  const authorAffliations2 = ["2", "4","1"]
+  const authorAffliations2 = ["","2", "4","1",""]
 
   const t2mResults = [
     "videos/text-to-motion/0.webm",
@@ -273,7 +277,7 @@ export default function IndexPage() {
               ))}
             </div>
 
-            <div className="mt-4 grid grid-cols-3 justify-center gap-2 text-center text-base leading-tight tracking-tight md:text-xl lg:mx-[12rem]">
+            <div className="mt-4 grid grid-cols-5 justify-center gap-2 text-center text-base leading-tight tracking-tight md:text-xl lg:mx-[12rem]">
               <div className="flex items-center justify-center">
                 <Image src={fudanLogo} alt="Fudan University" width={32}></Image>
                 <span>
