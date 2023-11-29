@@ -27,29 +27,29 @@ export default function IndexPage() {
     "Xin Chen",
     "Chi Zhang",
     "Biao Jiang",
+    "Zibo Zhao",
+    "Jiayuan Fan",
   ]
   const authorLinks = [
     "https://fukunyin.github.io/",
     "https://chenxin.tech/",
     "https://icoz69.github.io/",
     "https://github.com/billl-jiang",
+    "",
+    "https://scholar.google.com.hk/citations?user=gsLd2ccAAAAJ&hl=zh-CN",
   ]
   const authors2 = [
-    "Zibo Zhao",
-    "Jiayuan Fan",
     "Gang Yu",
     "Taihao Li",
     "Tao Chen",
   ]
   const authorLinks2 = [
-    "None",
-    "https://scholar.google.com.hk/citations?user=gsLd2ccAAAAJ&hl=zh-CN",
     "https://www.skicyyu.org/",
-    "None",
+    "",
     "https://eetchen.github.io/",
   ]
-  const authorAffliations = ["1", "2", "2", "1"]
-  const authorAffliations2 = ["3", "1", "2", "4", "1"]
+  const authorAffliations = ["1", "2", "2", "1", "3", "1"]
+  const authorAffliations2 = ["2", "4","1"]
 
   const t2mResults = [
     "videos/text-to-motion/0.webm",
@@ -245,7 +245,7 @@ export default function IndexPage() {
               </Button>
             </div>
 
-            <div className="tracking-tigh justify-center mt-4 grid grid-cols-4 gap-2 text-center text-base md:text-lg lg:mx-[18rem] lg:text-xl">
+            <div className="tracking-tigh justify-center mt-4 grid grid-cols-6 gap-2 text-center text-base md:text-lg lg:mx-[18rem] lg:text-xl">
               {authors.map((author, index) => (
                 <div key={index}>
                   <Link
@@ -259,7 +259,19 @@ export default function IndexPage() {
               ))}
             </div>
 
-            
+            <div className="tracking-tigh grid grid-cols-3 gap-2 text-center text-base md:text-lg lg:mx-[18rem] lg:text-xl">
+              {authors2.map((author, index) => (
+                <div key={index}>
+                  <Link
+                    className="transition hover:text-blue-400"
+                    href={authorLinks2[index]}
+                  >
+                    {author}
+                  </Link>
+                  <sup>{authorAffliations2[index]}</sup>
+                </div>
+              ))}
+            </div>
 
             <div className="mt-4 grid grid-cols-3 justify-center gap-2 text-center text-base leading-tight tracking-tight md:text-xl lg:mx-[12rem]">
               <div className="flex items-center justify-center">
