@@ -273,7 +273,7 @@ export default function IndexPage() {
               ))}
             </div>
 
-            <div className="mt-4 grid grid-cols-3 justify-center gap-2 text-center text-base leading-tight tracking-tight md:text-xl lg:mx-[12rem]">
+            <div className="mt-4 grid grid-cols-4 justify-center gap-2 text-center text-base leading-tight tracking-tight md:text-xl lg:mx-[12rem]">
               <div className="flex items-center justify-center">
                 <Image src={fudanLogo} alt="Fudan University" width={32}></Image>
                 <span>
@@ -296,6 +296,14 @@ export default function IndexPage() {
                   <sup>3</sup>ShanghaiTech University
                 </span>
               </div>
+
+              <div className="flex items-center  justify-center">
+                <Image src={tencentLogo} alt="Tencent PCG" width={32}></Image>
+                <span>
+                  <sup>2</sup>Tencent PCG
+                </span>
+              </div>
+
             </div>
           </section>
         </div>
