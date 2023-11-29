@@ -151,10 +151,10 @@ export default function IndexPage() {
     },
   ]
 
-  const citation = `@article{jiang2023motiongpt,
-    title={MotionGPT: Human Motion as a Foreign Language},
-    author={Jiang, Biao and Chen, Xin and Liu, Wen and Yu, Jingyi and Yu, Gang and Chen, Tao},
-    journal={arXiv preprint arXiv:2306.14795},
+  const citation = `@article{yin2023shapegpt,
+    title={ShapeGPT: 3D Shape Generation with A Unified Multi-modal Language Model},
+    author={Yin, Fukun and Chen, Xin and Zhang, Chi and Jiang, Biao and Zhao, Zibo and Fan, Jiayuan and Yu, Gang and Li, Taihao and Chen, Tao},
+    journal={arXiv preprint arXiv},
     year={2023}
 }`
 
@@ -167,7 +167,8 @@ export default function IndexPage() {
             {/*<span className="text-amber-500">Motion</span>GPT: Human Motion{" "}*/}
             {/*<br className="hidden sm:inline" />*/}
             {/*as Foreign <span className="text-blue-500">Language</span>*/}
-            ShapeGPT: 3D Shape Generation with A Unified Multi-modal Language Model
+            ShapeGPT: 3D Shape Generation with
+            A Unified Multi-modal Language Model
           </h1>
           <div className="mt-4 flex items-center justify-center">
             <div className="max-w-screen-lg ">
