@@ -39,21 +39,21 @@ export default function IndexPage() {
     "https://scholar.google.com.hk/citations?user=gsLd2ccAAAAJ&hl=zh-CN",
   ]
   const authors2 = [
-    "",
+    " ",
     "Gang Yu",
     "Taihao Li",
     "Tao Chen",
-    "",
+    " ",
   ]
   const authorLinks2 = [
-    "",
+    " ",
     "https://www.skicyyu.org/",
     "",
     "https://eetchen.github.io/",
-    "",
+    " ",
   ]
   const authorAffliations = ["1", "2", "2", "1", "3", "1"]
-  const authorAffliations2 = ["","2", "4","1",""]
+  const authorAffliations2 = [" ","2", "4","1"," "]
 
   const t2mResults = [
     "videos/text-to-motion/0.webm",
