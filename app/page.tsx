@@ -454,6 +454,14 @@ export default function IndexPage() {
         {/*    {citation}*/}
         {/*  </SyntaxHighlighter>*/}
         {/*</section>*/}
+        <section className="mx-auto max-w-screen-lg space-y-5 py-10">
+          <h2 className="py-5 font-mono text-2xl font-semibold uppercase tracking-tight">
+            <div className="text-red-500">Being completed</div>
+          </h2>
+        </section>
+
+
+
         <Separator className="my-8" />
         {/* Acknowledgement */}
         <div className="flex justify-center">
