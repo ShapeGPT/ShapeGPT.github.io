@@ -192,7 +192,7 @@ export default function IndexPage() {
             {/*<span className="text-amber-500">Motion</span>GPT: Human Motion{" "}*/}
             {/*<br className="hidden sm:inline" />*/}
             {/*as Foreign <span className="text-blue-500">Language</span>*/}
-            <span className="text-cyan-500">Shape</span>
+            <span className="text-sky-500">Shape</span>
             <span className="text-blue-500">GPT:</span> 3D Shape Generation with <br />
             A Unified Multi-modal Language Model
           </h1>
