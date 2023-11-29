@@ -506,7 +506,7 @@ export default function IndexPage() {
             >
               RERENDER A VIDEO
             </Link>
-            and {""}
+             and {""}
             <Link
               href="https://motion-gpt.github.io/"
               className="font-medium hover:text-blue-400 hover:underline"
