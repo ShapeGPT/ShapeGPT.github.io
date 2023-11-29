@@ -161,13 +161,32 @@ export default function IndexPage() {
   return (
     <div className="scroll-smooth">
       {/* Video */}
-      <section className="flex flex-col gap-2 bg-[#F6F6F6]">
-        <div className="h-[calc(100vh)] w-full items-end justify-center">
+      {/*<section className="flex flex-col gap-2 bg-[#F6F6F6]">*/}
+      {/*  <div className="h-[calc(100vh)] w-full items-end justify-center">*/}
+      {/*    <h1 className="py-4 text-center text-4xl font-extrabold leading-tight tracking-tight md:text-6xl">*/}
+      {/*      /!*<span className="text-amber-500">Motion</span>GPT: Human Motion{" "}*!/*/}
+      {/*      /!*<br className="hidden sm:inline" />*!/*/}
+      {/*      /!*as Foreign <span className="text-blue-500">Language</span>*!/*/}
+      {/*      ShapeGPT: 3D Shape Generation with*/}
+      {/*      A Unified Multi-modal Language Model*/}
+      {/*    </h1>*/}
+      {/*    <div className="mt-4 flex items-center justify-center">*/}
+      {/*      <div className="max-w-screen-lg ">*/}
+      {/*        <video autoPlay loop playsInline muted>*/}
+      {/*          <source src="videos/ShapeGPT_video_web.webm" type="video/webm" />*/}
+      {/*        </video>*/}
+      {/*      </div>*/}
+      {/*    </div>*/}
+      {/*  </div>*/}
+      {/*</section>*/}
+
+
+      <div className="h-[calc(100vh)] w-full items-end justify-center">
           <h1 className="py-4 text-center text-4xl font-extrabold leading-tight tracking-tight md:text-6xl">
             {/*<span className="text-amber-500">Motion</span>GPT: Human Motion{" "}*/}
             {/*<br className="hidden sm:inline" />*/}
             {/*as Foreign <span className="text-blue-500">Language</span>*/}
-            ShapeGPT: 3D Shape Generation with
+            ShapeGPT: 3D Shape Generation with <br />
             A Unified Multi-modal Language Model
           </h1>
           <div className="mt-4 flex items-center justify-center">
@@ -178,7 +197,12 @@ export default function IndexPage() {
             </div>
           </div>
         </div>
-      </section>
+
+
+
+
+
+
       <div className="container grid items-center pb-8 pt-6">
         {/* Information */}
         <section className="flex flex-col gap-2">
