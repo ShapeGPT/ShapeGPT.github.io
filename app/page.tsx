@@ -240,7 +240,7 @@ export default function IndexPage() {
               </Button>
             </div>
 
-            <div className="tracking-tigh mt-4 grid grid-cols-6 gap-2 text-center text-base md:text-lg lg:mx-[18rem] lg:text-xl">
+            <div className="tracking-tigh justify-center mt-4 grid grid-cols-6 gap-2 text-center text-base md:text-lg lg:mx-[18rem] lg:text-xl">
               {authors.map((author, index) => (
                 <div key={index}>
                   <Link
@@ -306,7 +306,7 @@ export default function IndexPage() {
 
       <div className="container grid items-center pb-8 pt-6">
         {/* Information */}
-        
+
         {/* Abstract */}
         <section className="mx-auto max-w-screen-lg space-y-5 py-10">
           <h2 className="py-5 font-mono text-2xl font-semibold uppercase tracking-tight">
