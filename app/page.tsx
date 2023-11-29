@@ -192,7 +192,8 @@ export default function IndexPage() {
             {/*<span className="text-amber-500">Motion</span>GPT: Human Motion{" "}*/}
             {/*<br className="hidden sm:inline" />*/}
             {/*as Foreign <span className="text-blue-500">Language</span>*/}
-            ShapeGPT: 3D Shape Generation with <br />
+            <span className="text-cyan-500">Shape</span>
+            <span className="text-blue-500">GPT:</span> 3D Shape Generation with <br />
             A Unified Multi-modal Language Model
           </h1>
           {/*<div className="mt-4 flex items-center justify-center">*/}
