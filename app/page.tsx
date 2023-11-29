@@ -213,38 +213,42 @@ export default function IndexPage() {
               <br className="hidden sm:inline" />
               as Foreign <span className="text-blue-500">Language</span>
             </h1> */}
-            <div className="mt-4 grid grid-cols-3 gap-4 px-6 text-center text-xl leading-tight tracking-tight md:text-2xl lg:mx-[12rem]">
-              <Button variant="outline" asChild>
-                <Link
-                  href="https://arxiv.org/pdf/2306.14795"
-                  target="_blank"
-                  className="flex items-center"
-                >
-                  <Icons.paper className="mr-2 h-4 w-4" />
-                  Paper
-                </Link>
-              </Button>
-              <Button variant="outline" asChild>
-                <Link
-                  href="https://github.com/OpenMotionLab/MotionGPT"
-                  target="_blank"
-                  className="flex items-center"
-                >
-                  <Icons.gitHub className="mr-2 h-4 w-4" />
-                  Code
-                </Link>
-              </Button>
-              <Button variant="outline">
-                <Link
-                  href="https://huggingface.co/spaces/OpenMotionLab/MotionGPT"
-                  target="_blank"
-                  className="flex items-center"
-                >
-                  <Icons.boxes className="mr-2 h-4 w-4" />
-                  Web Demo
-                </Link>
-              </Button>
-            </div>
+
+
+
+
+            {/*<div className="mt-4 grid grid-cols-3 gap-4 px-6 text-center text-xl leading-tight tracking-tight md:text-2xl lg:mx-[12rem]">*/}
+            {/*  <Button variant="outline" asChild>*/}
+            {/*    <Link*/}
+            {/*      href="https://arxiv.org/pdf/2306.14795"*/}
+            {/*      target="_blank"*/}
+            {/*      className="flex items-center"*/}
+            {/*    >*/}
+            {/*      <Icons.paper className="mr-2 h-4 w-4" />*/}
+            {/*      Paper*/}
+            {/*    </Link>*/}
+            {/*  </Button>*/}
+            {/*  <Button variant="outline" asChild>*/}
+            {/*    <Link*/}
+            {/*      href="https://github.com/OpenMotionLab/MotionGPT"*/}
+            {/*      target="_blank"*/}
+            {/*      className="flex items-center"*/}
+            {/*    >*/}
+            {/*      <Icons.gitHub className="mr-2 h-4 w-4" />*/}
+            {/*      Code*/}
+            {/*    </Link>*/}
+            {/*  </Button>*/}
+            {/*  <Button variant="outline">*/}
+            {/*    <Link*/}
+            {/*      href="https://huggingface.co/spaces/OpenMotionLab/MotionGPT"*/}
+            {/*      target="_blank"*/}
+            {/*      className="flex items-center"*/}
+            {/*    >*/}
+            {/*      <Icons.boxes className="mr-2 h-4 w-4" />*/}
+            {/*      Web Demo*/}
+            {/*    </Link>*/}
+            {/*  </Button>*/}
+            {/*</div>*/}
 
             <div className="tracking-tigh justify-center mt-4 grid grid-cols-6 gap-2 text-center text-base md:text-lg lg:mx-[18rem] lg:text-xl">
               {authors.map((author, index) => (
@@ -259,7 +263,6 @@ export default function IndexPage() {
                 </div>
               ))}
             </div>
-
             <div className="tracking-tigh grid grid-cols-3 gap-2 text-center text-base md:text-lg lg:mx-[18rem] lg:text-xl">
               {authors2.map((author, index) => (
                 <div key={index}>
