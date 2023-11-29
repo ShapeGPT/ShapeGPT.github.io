@@ -42,14 +42,14 @@ export default function IndexPage() {
     "Tao Chen",
   ]
   const authorLinks2 = [
-    "",
+    "None",
     "https://scholar.google.com.hk/citations?user=gsLd2ccAAAAJ&hl=zh-CN",
     "https://www.skicyyu.org/",
-    "",
+    "None",
     "https://eetchen.github.io/",
   ]
   const authorAffliations = ["1", "2", "2", "1"]
-  const authorAffliations2 = ["3","1","2", "4","1"]
+  const authorAffliations2 = ["3", "1", "2", "4", "1"]
 
   const t2mResults = [
     "videos/text-to-motion/0.webm",
