@@ -258,7 +258,7 @@ export default function IndexPage() {
                 </div>
               ))}
             </div>
-            <div className="tracking-tigh mt-4 grid grid-cols-5 gap-2 text-center text-base md:text-lg lg:mx-[18rem] lg:text-xl">
+            <div className="tracking-tigh mt-4 grid grid-cols-6 gap-2 text-center text-base md:text-lg lg:mx-[18rem] lg:text-xl">
               {authors2.map((author, index) => (
                 <div key={index}>
                   <Link
