@@ -181,7 +181,7 @@ export default function IndexPage() {
       {/*</section>*/}
 
 
-      <div className="h-[calc(100vh)] w-full items-end justify-center">
+      <div className="w-full items-end justify-center">
           <h1 className="py-4 text-center text-4xl font-extrabold leading-tight tracking-tight md:text-6xl">
             {/*<span className="text-amber-500">Motion</span>GPT: Human Motion{" "}*/}
             {/*<br className="hidden sm:inline" />*/}
