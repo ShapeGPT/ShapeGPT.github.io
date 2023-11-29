@@ -39,7 +39,7 @@ export default function IndexPage() {
     "https://scholar.google.com.hk/citations?user=gsLd2ccAAAAJ&hl=zh-CN",
   ]
   const authors2 = [
-    "        Gang Yu",
+    "Gang Yu",
     "Taihao Li",
     "Tao Chen",
   ]
@@ -257,7 +257,8 @@ export default function IndexPage() {
                   <sup>{authorAffliations[index]}</sup>
                 </div>
               ))}
-              <br />
+            </div>
+            <div className="tracking-tigh justify-center mt-4 grid grid-cols-5 gap-2 text-center text-base md:text-lg lg:mx-[18rem] lg:text-xl">
               {authors2.map((author, index) => (
                 <div key={index}>
                   <Link
