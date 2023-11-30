@@ -195,7 +195,8 @@ export default function IndexPage() {
             {/*<br className="hidden sm:inline" />*/}
             {/*as Foreign <span className="text-blue-500">Language</span>*/}
             <span className="text-sky-500">Shape</span>
-            <span className="text-blue-500">GPT:</span> 3D Shape Generation with <br />
+            {/*<span className="text-blue-500">GPT:</span> 3D Shape Generation with <br />*/}
+            <span className="text-rose-500">GPT:</span> 3D Shape Generation with <br />
             A Unified Multi-modal Language Model
           </h1>
           {/*<div className="mt-4 flex items-center justify-center">*/}
