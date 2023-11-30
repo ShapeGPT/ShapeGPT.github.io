@@ -49,7 +49,7 @@ export default function IndexPage() {
     "",
     "https://eetchen.github.io/",
   ]
-  const authorAffliations = ["1", "2", "2", "1", "3", "1"]
+  const authorAffliations = ["1,2", "2", "2", "1,2", "2,3", "1"]
   const authorAffliations2 = ["2", "4","1"]
 
   const t2mResults = [
