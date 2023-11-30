@@ -325,7 +325,7 @@ export default function IndexPage() {
           {/*</h1>*/}
           <div className="mt-4 flex items-center justify-center">
             <div className="max-w-screen-lg ">
-              <video autoPlay loop playsInline muted>
+              <video autoPlay controls loop playsInline muted>
                 <source src="videos/ShapeGPT_video_web.webm" type="video/webm" />
               </video>
             </div>
