@@ -205,7 +205,12 @@ export default function IndexPage() {
           {/*</div>*/}
         </div>
 
-
+      <div style = "width:500px;height :200px; background-color:blue;">
+       <div style="width: 150px; height: 100px; float: left; background-color: green;">
+            </div>
+            <div style="width: 150px; height: 100px; background-color: pink; float: left;">
+            </div>
+      </div>
 
       <div className="container grid items-center pb-8 pt-6">
         <section className="flex flex-col gap-2">
