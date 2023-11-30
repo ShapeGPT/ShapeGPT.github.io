@@ -8,6 +8,7 @@ import shanghaiTechLogo from "@/public/shanghaitech.svg"
 import zhejiangLogo from "@/public/zhejianglab.png"
 import teaser from "@/public/teaser.png"
 import tencentLogo from "@/public/tencent.png"
+import shapegptLogo from "@/public/logo.png"
 import white from "@/public/white.svg"
 import SyntaxHighlighter from "react-syntax-highlighter"
 
@@ -192,6 +193,7 @@ export default function IndexPage() {
             {/*<span className="text-amber-500">Motion</span>GPT: Human Motion{" "}*/}
             {/*<br className="hidden sm:inline" />*/}
             {/*as Foreign <span className="text-blue-500">Language</span>*/}
+            <Image src={zhejiangLogo} alt="shapegptlogo" width={32}></Image>
             <span className="text-sky-500">Shape</span>
             <span className="text-blue-500">GPT:</span> 3D Shape Generation with <br />
             A Unified Multi-modal Language Model
