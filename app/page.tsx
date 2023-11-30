@@ -205,12 +205,7 @@ export default function IndexPage() {
           {/*</div>*/}
         </div>
 
-      <div style = "width:500px;height :200px; background-color:blue;">
-       <div style="width: 150px; height: 100px; float: left; background-color: green;">
-            </div>
-            <div style="width: 150px; height: 100px; background-color: pink; float: left;">
-            </div>
-      </div>
+
 
       <div className="container grid items-center pb-8 pt-6">
         <section className="flex flex-col gap-2">
@@ -223,38 +218,28 @@ export default function IndexPage() {
 
 
 
-            {/*<div className="mt-4 grid grid-cols-3 gap-4 px-6 text-center text-xl leading-tight tracking-tight md:text-2xl lg:mx-[12rem]">*/}
-            {/*  <Button variant="outline" asChild>*/}
-            {/*    <Link*/}
-            {/*      href="https://arxiv.org/pdf/2306.14795"*/}
-            {/*      target="_blank"*/}
-            {/*      className="flex items-center"*/}
-            {/*    >*/}
-            {/*      <Icons.paper className="mr-2 h-4 w-4" />*/}
-            {/*      Paper*/}
-            {/*    </Link>*/}
-            {/*  </Button>*/}
-            {/*  <Button variant="outline" asChild>*/}
-            {/*    <Link*/}
-            {/*      href="https://github.com/OpenMotionLab/MotionGPT"*/}
-            {/*      target="_blank"*/}
-            {/*      className="flex items-center"*/}
-            {/*    >*/}
-            {/*      <Icons.gitHub className="mr-2 h-4 w-4" />*/}
-            {/*      Code*/}
-            {/*    </Link>*/}
-            {/*  </Button>*/}
-            {/*  <Button variant="outline">*/}
-            {/*    <Link*/}
-            {/*      href="https://huggingface.co/spaces/OpenMotionLab/MotionGPT"*/}
-            {/*      target="_blank"*/}
-            {/*      className="flex items-center"*/}
-            {/*    >*/}
-            {/*      <Icons.boxes className="mr-2 h-4 w-4" />*/}
-            {/*      Web Demo*/}
-            {/*    </Link>*/}
-            {/*  </Button>*/}
-            {/*</div>*/}
+            <div className="mt-4 grid grid-cols-2 gap-4 px-6 text-center text-xl leading-tight tracking-tight md:text-2xl lg:mx-[12rem]">
+              <Button variant="outline" asChild>
+                <Link
+                  href="https://arxiv.org/abs/2311.17618"
+                  target="_blank"
+                  className="flex items-center"
+                >
+                  <Icons.paper className="mr-2 h-4 w-4" />
+                  Paper
+                </Link>
+              </Button>
+              <Button variant="outline" asChild>
+                <Link
+                  href="https://github.com/OpenShapeLab/ShapeGPT"
+                  target="_blank"
+                  className="flex items-center"
+                >
+                  <Icons.gitHub className="mr-2 h-4 w-4" />
+                  Code
+                </Link>
+              </Button>
+            </div>
 
             <div className="tracking-tigh justify-center mt-4 grid grid-cols-6 gap-2 text-center text-base md:text-lg lg:mx-[18rem] lg:text-xl">
               {authors.map((author, index) => (
